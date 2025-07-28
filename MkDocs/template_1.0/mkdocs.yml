@@ -1,0 +1,37 @@
+site_name: Template 1.0 Lab
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jan Ekstrøm
+site_description: "Maximo Template 1.0 Hands on Lab"
+site_dir: ../../site/template_1.0
+
+nav:
+  - Get back to Maximo Labs: ..
+  - Template 1.0 Lab:
+    - Welcome to this lab: index.md
+    - Get Started: getting_started.md
+    - Pre-Requisites: prereqs.md
+  - Exercises:
+    - 1. Do something: something.md
+    - 2. Do something else: something_else.md
+  - About:
+    - Release Notes: release_notes.md
+    - Copyright: ../copyright
+  
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/popper.min.js
+  - js/tippy-bundle.umd.js
+  - js/clipboard.js
+  - js/extra.js
+
+markdown_extensions:
+  - attr_list
+  - admonition
