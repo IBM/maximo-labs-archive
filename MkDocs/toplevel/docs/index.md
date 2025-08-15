@@ -131,12 +131,26 @@ Feel free to [open issues](https://github.com/IBM/maximo-labs-archive/issues){ta
 |                                               | [Create Image Cards on Dashboards](monitor_saas/add_imagecard)               |    
 |                                               | [Create Summary Dashboards Using Dimensions](monitor_saas/create_dimensions) |
 |                                               | [Create Value Cards on Dashboards](monitor_saas/addvaluecard)                |
-| [Visual Inspection (1.3.0)](mvi_saas/)        | [Create a Data Set and Prepare Images](mvi_saas/exerciseOne/exercise1-1)     |
-|                                               | [Train and Deploy a Model](mvi_saas/exerciseOne/exercise1-2)                 |
-|                                               | [Project Creation for Inspections](mvi_saas/exerciseOne/exercise1-3)         |
-|                                               | [Conduct Inspections](mvi_saas/exerciseTwo/exercise2-2)                      |
-|                                               | [Setup Fail Pass Rate](mvi_saas/exerciseTwo/exercise2-3)                     |
+| [Visual Inspection (1.3.0)](mvi_saas/)        | [Create a Data Set and Prepare Images](mvi_saas/exercise1-1)                 |
+|                                               | [Train and Deploy a Model](mvi_saas/exercise1-2)                             |
+|                                               | [Project Creation for Inspections](mvi_saas/exercise1-3)                     |
+|                                               | [Create Inspections](mvi_saas/exercise2-1)                                   |
+|                                               | [Conduct Inspections](mvi_saas/exercise2-2)                                  |
+|                                               | [Setup Fail Pass Rate](mvi_saas/exercise2-3)                                 |
  
+
+### Maximo Labs
+
+These labs are additional labs that have been created while maintaining Maximo Labs.
+
+| Lab&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| Exercises&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|-----------------------------------------------|------------------------------------------------------------------------------|
+| [GitHub Pages](github_pages/)                 | [Setup GitHub Pages](github_pages/gh_pages)                                  |
+|                                               | [Update mkdocs.yml](github_pages/mkdocs_yml)                                 |
+|                                               | [Change Image Location](github_pages/image_locations)                        |
+|                                               | [Change Links](github_pages/links)                                           |
+|                                               | [Deploy to GitHub Pages](github_pages/deploy)                                |
+
 
 ---
 
