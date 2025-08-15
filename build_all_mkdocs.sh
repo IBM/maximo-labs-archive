@@ -27,88 +27,8 @@ How to comment out a blog to lower build time during development.
 Look at the character used above and belove these two lines of text.
 '
 
-# Build the Monitor SaaS level:
-lab=monitor_saas
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the HPU 8.6 level:
-lab=hpu_8.6
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the MVI Saas level:
-lab=mvi_saas
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Maximo Monitor Auto AI 8.5 level:
-lab=monitor_autoai_8.5
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Maximo Application Suite Overview 8.6 level:
-lab=mas_8.6
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Maximo Application Suite Sustainability Use Cases level:
-lab=sustain_mas
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the MAS v8.5 Monitor Lab level:
-lab=monitor_8.5
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor 8.6 CSV Importer level:
-lab=monitor_nodered_csv_importer_1.0
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor 8.8+ CSV Importer level:
-lab=monitor_nodered_csv_importer_2.0
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the MAS v8.7 deployment for Health Predict and Utilities Lab level:
-lab=apm_8.7
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the MAS v8.8 deployment for Health Predict and Utilities Lab level:
-lab=apm_8.8
+# Build the MAS deployment on OCP lab level:
+lab=ocp_8.9
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
@@ -123,24 +43,8 @@ cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the MAS v8.11 deployment for Health Predict and Utilities Lab level:
-lab=apm_8.11
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the MAS deployment on OCP lab level:
-lab=ocp_8.9
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor hierarchy level:
-lab=mas_monitor_hierarchy
+# Build the MAS v8.8 deployment for Health Predict and Utilities Lab level:
+lab=apm_8.8
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
@@ -155,185 +59,80 @@ cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the Monitor Edge Data Collector level:
-lab=edc_8.11
+# Build the MAS v8.7 deployment for Health Predict and Utilities Lab level:
+lab=apm_8.7
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the Github Pages level:
-lab=github_pages
+# Build the Monitor hierarchy level:
+lab=mas_monitor_hierarchy
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the Monitor Live Demo Asset level:
-lab=monitor_live_demo_asset
+# Build the Monitor 8.6 CSV Importer level:
+lab=monitor_nodered_csv_importer_1.0
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the APM 9 level:
-lab=apm_9.0
+# Build the Maximo Application Suite Overview 8.6 level:
+lab=mas_8.6
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the MAS 9 Overview level:
-lab=mas_9.0
+# Build the HPU 8.6 level:
+lab=hpu_8.6
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the Monitor Managed Gatewway Modbus 9.0 level:
-lab=monitor_managed_gw_modbus_9.0
+# Build the MAS v8.5 Monitor Lab level:
+lab=monitor_8.5
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the MAS TechZone Base Certified Image level:
-lab=mas_techzone_base
+# Build the Maximo Monitor Auto AI 8.5 level:
+lab=monitor_autoai_8.5
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the Monitor Installation level:
-lab=monitor_installation
+# Build the Maximo Application Suite Sustainability Use Cases level:
+lab=sustain_mas
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the Monitor Modbus Simulator level:
-lab=monitor_modbus_simulator
+# Build the Monitor SaaS level:
+lab=monitor_saas
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the Monitor Managed Gatewway Modbus 9.0 level:
-lab=monitor_managed_gw_modbus_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Managed Gatewway OPC-UA 9.0 level:
-lab=monitor_managed_gw_opcua_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-
-# Build the Maximo Monitor Cisco Webex Integration 9.1 level:
-lab=monitor_cisco_webex_integration_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Maximo Monitor Cisco Spaces Integration 9.1 level:
-lab=monitor_cisco_spaces_integration_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Maximo Monitor Real Estate and Facilities level:
-lab=monitor_MREF_integration_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Maximo alerts:
-lab=monitor_alerts_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Meter/Metric Mapping 9.1 level:
-lab=monitor_meter_metric_mapping_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Avevapi Scada Historian Integration 9.1 level:
-lab=monitor_avevapi_scada_historian_integration_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Custom Function:
-lab=monitor_custom_function_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Device and device type setup 9.1 level:
-lab=monitor_device_devicetype_setup_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Role Based Access Control 9.1 level:
-lab=monitor_role_based_access_control_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Managed Gatewway Modbus 9.0 level:
-lab=monitor_hierarchy_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Modbus Custom Device upload:
-lab=monitor_modbus_custom_device_9.1
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-# Build the Monitor Modbus Custom Device upload:
-lab=monitor_managed_gw_json_9.1
+# Build the MVI Saas level:
+lab=mvi_saas
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
@@ -345,23 +144,14 @@ echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Ma
 #### DON't CHANGE THE BELOW MANDATORY SECTION WHICH IS PART OF THE TOPLEVEL CONTENT ####
 ########################################################################################
 
-# Build the template level:
-lab=template_1.0
+# Build the Github Pages level:
+lab=github_pages
 echo "==================================================================================="
 echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
-# Build the contribution level:
-lab=contribute
-echo "==================================================================================="
-echo "BUILD_INFO - The $lab lab is being build"
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
-
-echo "==================================================================================="
 
 # Start the web server hosting the complete site if executed locally - then open the following URL in a browser: http://127.0.0.1:8080
 if [[ -z "${MKDOCS_DEPLOY}" ]]; then
