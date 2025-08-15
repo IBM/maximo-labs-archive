@@ -1,0 +1,71 @@
+h2 {
+  margin-top: 2em;
+  border-bottom: 2px solid black
+}
+
+table {
+  margin-bottom: 2em
+}
+
+table tr th {
+  padding: 5px 10px;
+  background-color: #ddd;
+  border:1px solid #aaa !important
+}
+
+table tr td {
+  padding: 5px 10px;
+  border:1px solid #aaa !important
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+/* If an unordered list immediately follows a normal paragraph, set negative
+   margin so that it flows better */
+div[role=main] p + ul {
+  margin-top: -20px
+}
+
+/* Ensure we keep the margin if the previous paragraph is an admonition title */
+div[role=main] p.admonition-title + ul {
+  margin-top: 0
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Colering scheme for the IBM Maximo Labs Archive */
+
+.wy-side-nav-search {
+  display: block;
+  width: 300px;
+  padding: .809em;
+  margin-bottom: .809em;
+  z-index: 200;
+  background-color: #9d0bad;
+  text-align: center;
+  color: #fcfcfc
+}
+
+.wy-breadcrumbs::before {
+  content: "= = = = = = = = = = = = T H E S E _ L A B S _ A R E _ A R C H I V E D = = = = = = = = = = = =";
+  font-weight: bolder;
+  font-size: 175%;
+  background-color: #9d0bad;
+  color: #fcfcfc;
+}
+
+.wy-nav-content {
+  max-width: 1200px !important;
+  margin: 0;
+}
+
+.wy-table-responsive table td, .wy-table-responsive table th {
+  white-space: normal !important;
+}
+
