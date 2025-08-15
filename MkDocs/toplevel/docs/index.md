@@ -115,7 +115,7 @@ Feel free to [open issues](https://github.com/IBM/maximo-labs-archive/issues){ta
 |                                               | [Create Device Types](monitor_autoai_8.5/create_device_types)             |
 |                                               | [Setup Devices](monitor_autoai_8.5/create_devices)                        |
 |                                               | [Send Simulated Data](monitor_autoai_8.5/send_device_simulated_data)      |
-|                                               | [Create Logical and Physical Interfaces](monitor_8.5/create_interfaces)   |
+|                                               | [Create Logical and Physical Interfaces](monitor_autoai_8.5/create_interfaces)   |
 |                                               | [Create Dahsboards](monitor_autoai_8.5/create_dashboards)                 |    
 |                                               | [Identify Model](monitor_autoai_8.5/create_model)                         |
 |                                               | [Deploy Model](monitor_autoai_8.5/deploy_prediction_model_function)       | 
