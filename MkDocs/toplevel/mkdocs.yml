@@ -1,0 +1,19 @@
+site_name: IBM Maximo Labs Archive
+site_url: https://ibm.github.io/maximo-labs-archive/
+site_author: Jan Ekstrøm, Carlos Ferreira
+site_description: "IBM Maximo Labs Archive"
+site_dir: ../../site
+
+
+nav:
+  - Archived Maximo Labs: index.md
+  - About:
+    - Release Notes: release_notes.md
+    - Copyright: copyright.md
+
+theme: readthedocs
+extra_css:
+  - css-toplevel/extra.css
+markdown_extensions:
+  - attr_list
+  - admonition
