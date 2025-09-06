@@ -9,6 +9,6 @@
 
 |Date      |By             | Description                                                                            |
 |:---------|:--------------|:---------------------------------------------------------------------------------------|
-|2025-08-15|Jan Ekstrøm    |Moved these Maximo Labs to the archive: Maximo SaaS, MAS 8.5 - MAS 8.9   |
+|2025-09-05|Jan Ekstrøm    |Moved these Maximo Labs to the archive: Maximo SaaS, MAS 8.5 - MAS 8.9   |
 
 ---

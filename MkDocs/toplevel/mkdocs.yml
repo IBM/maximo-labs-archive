@@ -4,16 +4,29 @@ site_author: Jan Ekstrøm, Carlos Ferreira
 site_description: "IBM Maximo Labs Archive"
 site_dir: ../../site
 
-
 nav:
   - Archived Maximo Labs: index.md
   - About:
     - Release Notes: release_notes.md
     - Copyright: copyright.md
 
-theme: readthedocs
-extra_css:
-  - css-toplevel/extra.css
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
 markdown_extensions:
   - attr_list
   - admonition
+
+extra_css:
+  - css-toplevel/extra.css
+
+extra_javascript:
+  - js/popper.min.js
+  - js/tippy-bundle.umd.js
+  - js/clipboard.js
+  - js/extra.js
